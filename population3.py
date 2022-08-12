@@ -87,7 +87,7 @@ if glbutton:
 #response = requests.get(url)
 #image = Image.open(BytesIO(response.content))
 
-htp1 = Image.open("Photo_by_Ishan_%40seefromthesky_on_Unsplash.jpg")
+htp1 = Image.open("Unsplash.jpg")
 st.image(htp1, use_column_width=True, caption='Photo by Ishan @seefromthesky on Unsplash')
 
 
